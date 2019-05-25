@@ -7,14 +7,14 @@ config.appSlogan = 'Slow and steady wins the race!';
 config.appId = 'lol.woolong.walletshell';
 config.appGitRepo = 'https://github.com/woolong-coin/woolong-wallet-electron';
 
-// default port number for your daemon (e.g. TurtleCoind)
-config.daemonDefaultRpcPort = 47058;
+// default port number for your daemon (e.g. Woolongd)
+config.daemonDefaultRpcPort = 11898;
 
 // wallet file created by this app will have this extension
 config.walletFileDefaultExt = 'twl';
 
 // change this to match your wallet service executable filename
-config.walletServiceBinaryFilename = 'turtle-service';
+config.walletServiceBinaryFilename = 'woolong-service';
 
 // version on the bundled service (turtle-service)
 config.walletServiceBinaryVersion = "v0.13.0";
@@ -57,7 +57,7 @@ config.assetTicker = 'WOO';
 // your currency address prefix, for address validation
 config.addressPrefix = 'W';
 // standard wallet address length, for address validation
-config.addressLength = 96;
+config.addressLength = 97;
 // integrated wallet address length, for address validation. Added length is length of payment ID encoded in base58.
 config.integratedAddressLength = config.addressLength + ((64 * 11) / 8);
 

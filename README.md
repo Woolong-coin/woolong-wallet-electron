@@ -67,7 +67,7 @@ $ npm run dist-win
 
 # build OSX package
 $ mkdir -p ./bin/osx
-$ cp /path/to/osx-version-of/turtle-service ./bin/osx/
+$ cp ../woolong-coin/build/src/woolong-service ./bin/osx/
 $ npm run dist-mac
 ```
 

@@ -45,7 +45,7 @@ config.remoteNodeListFiltered = true;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  '162.219.245.39:11897',
+  '162.219.245.39:11898',
 ];
 config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;

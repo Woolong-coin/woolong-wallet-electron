@@ -1,7 +1,5 @@
 ## Available keyboard shortcut
 
-![WalletShell Logo](walletshell.png)
-
 | Shortcut                                       | Target                               | Conditions |
 | ---------                                      | -------                              | ---------- |
 | <kbd>Ctrl</kbd>+<kbd>Home</kbd>                | Go to **overview/welcome** screen    | - |

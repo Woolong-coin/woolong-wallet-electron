@@ -39,7 +39,7 @@ Once you have Node+npm installed:
 # assuming you're building it on GNU/Linux
 # first, download turtle-service binary for each platform
 # from Woolong official repo
-# https://github.com/Woolong-coin/woolong-coin
+# https://github.com/Woolong-coin/woolong-coin/releases
 # extract the turtle-service executable somewhere
 
 # clone the repo

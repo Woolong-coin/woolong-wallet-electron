@@ -1,7 +1,7 @@
 var config = {};
 
 // self explanatory, your application name, descriptions, etc
-config.appName = 'WalletShell';
+config.appName = 'Woolong Wallet';
 config.appDescription = 'Woolong Wallet';
 config.appSlogan = 'Slow and steady wins the race!';
 config.appId = 'lol.woolong.walletshell';

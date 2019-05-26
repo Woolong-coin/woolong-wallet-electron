@@ -57,17 +57,17 @@ $ cp ./src/assets/icon.* ./build/
 
 # build GNU/Linux package
 $ mkdir -p ./bin/lin
-$ cp /path/to/linux-version-of/turtle-service ./bin/lin/
+$ cp /path/to/linux-version-of/woolong-service ./bin/lin/
 $ npm run dist-lin
 
 # build Windows package (you need to have wine 2.0+ installed)
 $ mkdir -p ./bin/win
-$ cp /path/to/win-version-of/turtle-service.exe ./bin/win/
+$ cp /path/to/win-version-of/woolong-service.exe ./bin/win/
 $ npm run dist-win
 
 # build OSX package
 $ mkdir -p ./bin/osx
-$ cp ../woolong-coin/build/src/woolong-service ./bin/osx/
+$ cp /path/to/linux-version-of/woolong-service ./bin/osx/
 $ npm run dist-mac
 ```
 

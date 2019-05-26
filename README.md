@@ -2,7 +2,7 @@
 
 ### Features:
 
-This wallet contains the basic functions required to manage your TurtleCoin assets:
+This wallet contains the basic functions required to manage your Woolong assets:
 
 * Wallet creation:
   * Create new wallet.
@@ -30,8 +30,11 @@ This wallet contains the basic functions required to manage your TurtleCoin asse
   * Allow to add custom node address.
   * Theme: Dark & Light Mode
   * [Keyboard shortcuts](docs/shortcut.md)
+  
+### Precompiled binaries
+You can download the precompiled binaries [here](https://github.com/Woolong-coin/woolong-wallet-electron/releases).
 
-### Building/Packaging WalletShell
+### Building/Packaging WalletShell from source
 You need to have `Node.js` and `npm` installed, go to https://nodejs.org and find out how to get it installed on your platform.
 
 Once you have Node+npm installed:

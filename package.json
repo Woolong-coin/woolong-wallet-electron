@@ -2,7 +2,7 @@
   "name": "woolong",
   "productName": "Woolong",
   "description": "Woolong GUI Wallet",
-  "version": "v0.3.11",
+  "version": "v0.0.2",
   "homepage": "https://github.com/woolong-coin/woolong-wallet-electron",
   "repository": "https://github.com/woolong-coin/woolong-wallet-electron",
   "main": "main.js",

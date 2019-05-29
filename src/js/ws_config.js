@@ -11,12 +11,12 @@ config.appGitRepo = 'https://github.com/woolong-coin/woolong-wallet-electron';
 config.daemonDefaultRpcPort = 11898;
 
 // wallet file created by this app will have this extension
-config.walletFileDefaultExt = 'twl';
+config.walletFileDefaultExt = 'wlg';
 
 // change this to match your wallet service executable filename
 config.walletServiceBinaryFilename = 'woolong-service';
 
-// version on the bundled service (turtle-service)
+// version on the bundled service (woolong-service)
 config.walletServiceBinaryVersion = "v0.13.0";
 
 // config file format supported by wallet service, possible values:
@@ -28,7 +28,7 @@ config.walletServiceConfigFormat = "json";
 config.walletServiceRpcPort = 8070;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = 'https://explorer.turtlecoin.lol/transaction.html?hash=[[TX_HASH]]';
+config.blockExplorerUrl = '';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
 config.remoteNodeDefaultHost = '162.219.245.39';
@@ -38,7 +38,7 @@ config.remoteNodeDefaultHost = '162.219.245.39';
 // for TRTL:
 // raw list: https://raw.githubusercontent.com/turtlecoin/turtlecoin-nodes-json/master/turtlecoin-nodes.json
 // filtered: https://trtl.nodes.pub/api/getNodes
-config.remoteNodeListUpdateUrl = 'https://github.com/woolong-coin';
+config.remoteNodeListUpdateUrl = '';
 
 // set to false if using raw/unfiltered node list
 config.remoteNodeListFiltered = true;

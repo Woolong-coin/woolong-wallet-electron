@@ -46,6 +46,7 @@ config.remoteNodeListFiltered = true;
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
   '162.219.245.39:11898',
+  '162.219.245.61:11898',
 ];
 config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;
@@ -68,7 +69,7 @@ config.mininumSend = 0.1;
 // default mixin/anonimity for transaction
 config.defaultMixin = 3;
 // to represent human readable value
-config.decimalPlaces = 2;
+config.decimalPlaces = 8;
 // to convert from atomic unit
 config.decimalDivisor = 10 ** config.decimalPlaces;
 
@@ -81,7 +82,7 @@ config.addressBookObfuscationKey = '79009fb00ca1b7130832a42de45142cf6c4b7f333fe6
 config.addressBookSampleEntries = [
   {
     name: 'WalletShell Donation',
-    address: '',
+    address: 'WwaFjmWQrNG1h1bSVcP8UjKYL1nHRHp5sGVVSX9pZmtFjfPFfBi4XoJCWewvjXU4gxGmuiNpZSBLd4sgRWnusrNS15x8facrx',
     paymentId: '',
   }
 ];

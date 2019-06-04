@@ -31,7 +31,7 @@ config.walletServiceRpcPort = 8070;
 config.blockExplorerUrl = '';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = '162.219.245.39';
+config.remoteNodeDefaultHost = '162.219.245.61';
 
 
 // remote node list update url, set to null if you don't have one
@@ -45,8 +45,8 @@ config.remoteNodeListFiltered = true;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  '162.219.245.39:11898',
   '162.219.245.61:11898',
+  '162.219.245.39:11898',
 ];
 config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;

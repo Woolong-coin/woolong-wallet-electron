@@ -45,8 +45,8 @@ config.remoteNodeListFiltered = true;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  '162.219.245.61:11898',
   '162.219.245.39:11898',
+  '162.219.245.61:11898',
 ];
 config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;
@@ -63,7 +63,7 @@ config.addressLength = 97;
 config.integratedAddressLength = config.addressLength + ((64 * 11) / 8);
 
 // minimum fee for sending transaction
-config.minimumFee = 0.1;
+config.minimumFee = 0.001;
 // minimum amount for sending transaction
 config.mininumSend = 0.1;
 // default mixin/anonimity for transaction

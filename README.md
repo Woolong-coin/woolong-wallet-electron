@@ -1,5 +1,8 @@
 ## WalletShell - GUI wallet for Woolong.
 
+### Precompiled binaries
+You can download the precompiled binaries [here](https://github.com/Woolong-coin/woolong-wallet-electron/releases/latest).
+
 ### Features:
 
 This wallet contains the basic functions required to manage your Woolong assets:
@@ -31,9 +34,6 @@ This wallet contains the basic functions required to manage your Woolong assets:
   * Theme: Dark & Light Mode
   * [Keyboard shortcuts](docs/shortcut.md)
   
-### Precompiled binaries
-You can download the precompiled binaries [here](https://github.com/Woolong-coin/woolong-wallet-electron/releases).
-
 ### Building/Packaging WalletShell from source
 You need to have `Node.js` and `npm` installed, go to https://nodejs.org and find out how to get it installed on your platform.
 
